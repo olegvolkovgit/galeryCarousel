@@ -1,0 +1,28 @@
+html, body, ul, li
+{
+	margin: 0;
+	padding: 0;
+}
+body
+{
+	background: #fff333;
+}
+
+#galery
+{
+	width:860px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+#galery, .photos, img
+{
+	height: 100%;
+	display: none;
+}
+
+#galery, .photos, img:first-child
+{
+	display: block;
+	height: 620px;
+}
